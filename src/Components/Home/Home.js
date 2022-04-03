@@ -1,5 +1,6 @@
 import React from 'react';
 import useProducts from '../../hooks/useProducts';
+import Reviews from '../Reviews/Reviews';
 import './Home.css';
 
 const Home = () => {
@@ -16,6 +17,9 @@ const Home = () => {
                     <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0846e90b15144861b33dacf500e3cfd1_9366/Kaptir_2.0_Shoes_White_H00276_01_standard.jpg" alt="" />
 
                 </div>
+            </div>
+            <div className="products-container">
+                <Reviews></Reviews>
             </div>
         </div >
     );
