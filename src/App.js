@@ -6,6 +6,7 @@ import Blocks from './Components/Blocks/Blocks';
 import Dashboard from './Components/Dashboard/Dashboard';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
+import NotFound from './Components/NotFound/NotFound';
 import Reviews from './Components/Reviews/Reviews';
 
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="/dashboard" element={<Dashboard></Dashboard>}></Route>
         <Route path="/blocks" element={<Blocks></Blocks>}></Route>
         <Route path="/about" element={<About></About>}></Route>
+        <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
     </div>
   );

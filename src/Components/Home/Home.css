@@ -1,0 +1,12 @@
+.container{
+    margin: 80px;
+}
+.text-image{
+    display: flex;
+    justify-content: space-between;
+}
+.image img{
+    height: 400px;
+    width: 400px;
+    margin: 50px;
+}

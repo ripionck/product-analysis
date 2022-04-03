@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    justify-content: right;
+    margin-top: 30px;
+    margin-right: 80px;
+    gap: 25px;
+    direction: none;
+}
+.header a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+.header a:hover{
+    color: orange;
+}
