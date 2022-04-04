@@ -1,24 +1,24 @@
 import React from 'react';
 import useProducts from '../../hooks/useProducts';
-import Product from '../Product/Product';
-import './Reviews.css'
+import Show from '../show/Show';
+import './Items.css';
 
-
-const Reviews = () => {
+const Items = () => {
     const [products] = useProducts();
     return (
         <div>
             <h1 className="heading">Latest Shoe Model Reviews</h1>
             <div className="products-container">
                 {
-                    products.map(product => <Product
+                    products.slice(0, 3).map(product => <Show
                         key={product.id}
                         product={product}
-                    ></Product>)
+                    ></Show>)
                 }
             </div>
+            <button className="see-more">See more</button>
         </div>
     );
 };
 
-export default Reviews;
+export default Items;

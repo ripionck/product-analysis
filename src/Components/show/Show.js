@@ -1,11 +1,10 @@
 import React from 'react';
-import './Product.css'
+import './Show.css';
 
-const Product = ({ product }) => {
+const Show = ({ product }) => {
     const { name, img, ratings, userName, body } = product;
     return (
         <div className="product">
-            {/* <img src={img} alt="" /> */}
             <div className="product-info">
                 <p className="product-name">{name}</p>
                 <h2>{userName}</h2>
@@ -14,6 +13,7 @@ const Product = ({ product }) => {
             </div>
         </div>
     );
+
 };
 
-export default Product;
+export default Show;
