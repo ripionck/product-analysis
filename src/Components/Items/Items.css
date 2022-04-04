@@ -1,3 +1,4 @@
+
 .heading{
     text-align: center;
 }
@@ -5,4 +6,11 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 45px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.see-more-btn{
+    padding: 10px 50px;
 }

@@ -15,7 +15,7 @@ const Dashboard = () => {
     return (
         <div className="chart-container">
             <div>
-                <h2>Line Chart</h2>
+                <h2>Month vs Sell</h2>
                 <LineChart width={600} height={300} data={data} margin={{ top: 5, right: 20, bottom: 5, left: 80 }}>
                     <Line type="monotone" dataKey="sell" stroke="#8884d8"></Line>
                     <CartesianGrid stroke="#ccc" strokeDasharray="5 5"></CartesianGrid>
@@ -25,7 +25,7 @@ const Dashboard = () => {
                 </LineChart>
             </div>
             <div>
-                <h2>Area Chart</h2>
+                <h2>Month vs Investment</h2>
                 <AreaChart
                     width={500}
                     height={400}
@@ -46,7 +46,7 @@ const Dashboard = () => {
             </div>
 
             <div>
-                <h2>Pie Chart</h2>
+                <h2>Revenue</h2>
                 <PieChart width={400} height={400}>
                     <Pie
                         dataKey="revenue"
@@ -64,7 +64,7 @@ const Dashboard = () => {
             </div>
 
             <div>
-                <h2>Bar Chart</h2>
+                <h2>Month vs Investment</h2>
                 <BarChart
                     width={500}
                     height={300}

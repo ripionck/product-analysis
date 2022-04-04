@@ -7,16 +7,20 @@ const Items = () => {
     const [products] = useProducts();
     return (
         <div>
-            <h1 className="heading">Latest Shoe Model Reviews</h1>
-            <div className="products-container">
-                {
-                    products.slice(0, 3).map(product => <Show
-                        key={product.id}
-                        product={product}
-                    ></Show>)
-                }
+            <div className="container">
+                <h1 className="heading">Latest Shoe Model Reviews</h1>
+                <div className="products-container">
+                    {
+                        products.slice(0, 3).map(product => <Show
+                            key={product.id}
+                            product={product}
+                        ></Show>)
+                    }
+                </div>
             </div>
-            <button className="see-more">See more</button>
+            <div className="button">
+                <button className="see-more-btn">See more</button>
+            </div>
         </div>
     );
 };

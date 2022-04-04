@@ -7,9 +7,9 @@ const Product = ({ product }) => {
         <div className="product">
             {/* <img src={img} alt="" /> */}
             <div className="product-info">
-                <p className="product-name">{name}</p>
-                <h2>{userName}</h2>
-                <p>Ratings:{ratings}</p>
+                <h2 style={{ textAlign: 'center' }}>{userName}</h2>
+                <h3>{name}</h3>
+                <p>Ratings: {ratings}</p>
                 <p>{body}</p>
             </div>
         </div>
