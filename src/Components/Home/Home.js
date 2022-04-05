@@ -1,12 +1,8 @@
 import React from 'react';
-import useProducts from '../../hooks/useProducts';
 import Items from '../Items/Items';
-import Reviews from '../Reviews/Reviews';
 import './Home.css';
 
 const Home = () => {
-    const [products, setProducts] = useProducts();
-
     return (
         <div className="container">
             <div className="text-image">

@@ -1,7 +1,7 @@
 import React from 'react';
-import './Blocks.css';
+import './Blogs.css';
 
-const Blocks = () => {
+const Blogs = () => {
     return (
         <div className="blocks-container">
             <div>
@@ -21,7 +21,7 @@ const Blocks = () => {
                 Because the web was not initially built to be designed, programmers used different hacks to get things laid out in different ways. Rather than using the <table></table> to describe information using a table, programmers would use them to position other elements on a page.
             </div>
             <div>
-                <h1>Difference between inline block and inline block elements?</h1>
+                <h1>Difference between inline, block and inline block elements?</h1>
                 <strong>inline</strong> The element doesn’t start on a new line and only occupy just the width it requires. You can’t set the width or height.
                 <br />
                 <strong>inline-block</strong> It’s formatted just like the inline element, where it doesn’t start on a new line. BUT, you can set width and height values.
@@ -32,4 +32,4 @@ const Blocks = () => {
     );
 };
 
-export default Blocks;
+export default Blogs;
