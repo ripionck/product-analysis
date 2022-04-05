@@ -1,7 +1,7 @@
 import React from 'react';
-import './Blogs.css';
+import './Blocks.css';
 
-const Blogs = () => {
+const Blocks = () => {
     return (
         <div className="blocks-container">
             <div>
@@ -32,4 +32,4 @@ const Blogs = () => {
     );
 };
 
-export default Blogs;
+export default Blocks;
